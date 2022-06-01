@@ -111,6 +111,15 @@ h2 a:hover {
 }
 
 @media only screen and (min-width: 100px) and (max-width: 830px) {
+  body {
+    height: 100vh;
+  }
+
+  .container.card-container {
+    margin-top: 14vh;
+    max-width: 350px;
+  }
+
   .card-body.vertical .card-images {
     max-height: 285px;
   }
@@ -121,7 +130,7 @@ h2 a:hover {
   }
 
   #btn-change {
-    right: 5%;
+    right: 3%;
     top: 8%;
   }
 
