@@ -1,3 +1,5 @@
 # Profile Card
 
-Creado con tailwind para estilos y js para funcionalidad.
+Tarjeta de presentación creada con tailwind para estilos y js para funcionalidad.
+
+Cuenta con vista desktop y responsive.
