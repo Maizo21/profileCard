@@ -8,6 +8,11 @@ body {
   background-color: #0b223a;
 }
 
+main{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 .card-images {
   background-color: #bddaec;
 }
@@ -113,6 +118,10 @@ h2 a:hover {
 @media only screen and (min-width: 100px) and (max-width: 830px) {
   body {
     height: 100vh;
+  }
+
+  main{
+    grid-template-columns: 1fr;
   }
 
   .container.card-container {
